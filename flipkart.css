@@ -1,0 +1,215 @@
+.categories {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  /*border: 1px solid black;*/
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 1px 2px 2px;
+  padding-top: 20px;
+}
+
+.categories .image1:hover {
+  transform: scale(1.3);
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+}
+
+img {
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.category p:hover {
+  color: #5183f1;
+  font-weight: 70;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.offers {
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn1 {
+  padding-left: 100px;
+  margin-left: 10px;
+  padding-right: 50px;
+  border: none;
+  padding: 10px 20px;
+  color: #ffff;
+  background-color: #2874f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #2874f0;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Electonic {
+  text-align: center;
+  padding: 50px;
+  padding-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image1 {
+  width: 120px;
+  size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*.image2 {
+  width: 100px;
+  size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+.toys {
+  width: 100px;
+  text-align: center;
+  padding-right: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.deals {
+  width: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fashion {
+  width: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 100px;
+}
+.home {
+  width: 100px;
+  text-align: center;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #2874f0;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #5183f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav button {
+  color: #5183f1;
+  background-color: #fff;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li span {
+  color: yellow;
+  font-weight: 90;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo img {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav li {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+.logo {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #172337;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+.color {
+  color: #878787;
+  padding-top: 10px;
+}
+select {
+  width: 80px;
+  border: none;
+  background-color: #2874f0;
+  color: #fff;
+  box-shadow: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 120px;
+  display: block;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.last {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bottom {
+  background-color: #172337;
+}
+.list {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+  width: 250px;
+  z-index: 1;
+  text-align: left;
+  padding: 5px 10px;
+}
+.list p {
+  width: 200px;
+}
+.hi:hover .list {
+  display: block;
+}
+.list a:hover {
+  background-color: #f1f1f1;
+  color: #5183f1;
+}
+.hi a {
+  text-decoration: none;
+  color: black;
+}
